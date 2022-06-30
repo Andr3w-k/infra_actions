@@ -3,7 +3,7 @@ from django.http import HttpResponse
 
 def index(request):
     return HttpResponse(
-        'У меня получилось! И даже приходят уведомления в Telegram'
+        'У меня получилось! И даже приходят уведомления в Telegram!'
     )
 
 
